@@ -26,7 +26,7 @@ def get_average_sales(sales_data):
 
 
 def get_days_with_sales_above(sales_data, threshold):
-    print(sales_data[sales_data > threshold])
+    print(sales_data[sales_data > threshold].index.tolist())
     pass
 
 
